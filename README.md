@@ -16,7 +16,7 @@ you need to find the document property wich mismatch its mapping. Of course it w
 ## Installation ##
 
 ```
-npm install es-mapping-validator
+npm install -g es-mapping-validator
 ```
 
 ## Usage ##
