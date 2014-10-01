@@ -1,6 +1,6 @@
 {
     "name": "es-mapping-validator",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Validate Elastic Search document with its mapping.",
     "main": "validate.js",
     "repository": {
