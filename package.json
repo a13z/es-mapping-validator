@@ -1,14 +1,17 @@
 {
     "name": "es-mapping-validator",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Validate Elastic Search document with its mapping.",
     "main": "validate.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/atott/es-mapping-validator.git"
     },
+    "engines": {
+        "node": ">=0.4.0"
+    },
     "bin": {
-        "forever": "./bin/es-mapping-validator"
+        "es-mapping-validator": "./bin/es-mapping-validator"
     },
     "keywords": [
         "es",
