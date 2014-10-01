@@ -1,7 +1,7 @@
 es-mapping-validator
 ====================
 
-Validate document with its mapping.
+Validate Elastic Search document with its mapping.
 
 If you get error like this
 ```
