@@ -1,0 +1,13 @@
+es-mapping-validator
+====================
+
+Validate document with its mapping.
+
+If you get error like this
+```
+{
+   "error": "RemoteTransportException[[ESM4-staging][inet[/10.74.184.6:9312]][update]]; nested: MapperParsingException[object mapping for [profile] tried to parse as object, but got EOF, has a concrete value been provided to it?]; ",
+   "status": 400
+}
+```
+you need to find the document property wich mismatch its mapping. Of course it will not be property `profile` that you can see in the error :). This tool will hellp you to find mismatching fields.
