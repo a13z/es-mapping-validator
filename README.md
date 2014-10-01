@@ -27,7 +27,7 @@ Run shell command `es-mapping-validator <args>`
 * `-i`, `--index`: Index name, for example `tweets`
 * `-t`, `--type`: Document type, for example `tweet`
 * `-d`, `--id`: Document id, for example `1`
-* `-a`, `--auth` Http basic authentification (if need), for example 'username:password'
+* `-a`, `--auth` Http basic authentification (if need), for example `username:password`
 * `-m`, `--mismatches` **Flag** Print only type mismatches.
 * `-f`, `--fullpath` **Flag** Print full field's names.
 * `-r`, `--tree` **Flag** Print results as a tree.
