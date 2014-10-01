@@ -37,3 +37,4 @@ Example
 ```
 es-mapping-validator -h localhost:9200 -a user:password -i tweets -t tweet -d 1 -m
 ```
+![](https://github.com/atott/es-mapping-validator/blob/master/images/example.png)
