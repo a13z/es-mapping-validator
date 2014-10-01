@@ -10,7 +10,7 @@ If you get error like this
    "status": 400
 }
 ```
-you need to find the document property wich mismatch its mapping. Of course it will not be property `profile` that you can see in the error :). This tool will hellp you to find mismatching fields.
+you need to find the document property which mismatch its mapping. Of course it will not be property `profile` that you can see in the error :). This tool will hellp you to find mismatching fields.
 
 
 ## Installation ##
