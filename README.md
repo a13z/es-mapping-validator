@@ -10,13 +10,13 @@ If you get error like this
    "status": 400
 }
 ```
-you need to find the document property wich mismatch its mapping. Of course it will not be property `profile` that you can see in the error :). This tool will hellp you to find mismatching fields.
+you need to find the document property which mismatch its mapping. Of course it will not be property `profile` that you can see in the error :). This tool will hellp you to find mismatching fields.
 
 
 ## Installation ##
 
 ```
-npm install es-mapping-validator
+npm install -g es-mapping-validator
 ```
 
 ## Usage ##
@@ -27,7 +27,7 @@ Run shell command `es-mapping-validator <args>`
 * `-i`, `--index`: Index name, for example `tweets`
 * `-t`, `--type`: Document type, for example `tweet`
 * `-d`, `--id`: Document id, for example `1`
-* `-a`, `--auth` Http basic authentification (if need), for example 'username:password'
+* `-a`, `--auth` Http basic authentification (if need), for example `username:password`
 * `-m`, `--mismatches` **Flag** Print only type mismatches.
 * `-f`, `--fullpath` **Flag** Print full field's names.
 * `-r`, `--tree` **Flag** Print results as a tree.
